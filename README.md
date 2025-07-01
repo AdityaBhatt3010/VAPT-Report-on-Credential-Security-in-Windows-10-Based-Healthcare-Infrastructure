@@ -66,8 +66,13 @@ The report encapsulates:
   ipconfig
   ```
 
+![1](https://github.com/user-attachments/assets/529f73ca-0408-4e7e-8440-21f9d66c6c1f) <br/>
+
 * **SAM Database Location Identified:**
   `C:\Windows\System32\config\SAM`
+
+![2](https://github.com/user-attachments/assets/b1a1e33e-f5cc-4e28-bfda-d21e76d897e8) <br/>
+
 
 ---
 
@@ -81,9 +86,23 @@ The report encapsulates:
 * **Steps:**
 
   1. Install dependencies (WinPcap).
-  2. Install Cain & Abel and configure DNS settings.
-  3. Disable IPv6 to prevent DNS registration issues.
-  4. Navigate to Cain & Abel → Cracker → Import Local Hashes.
+     ![3](https://github.com/user-attachments/assets/ab33776d-bd7c-4537-bbf3-2a414547ce3a) <br/>
+
+  3. Install Cain & Abel and configure DNS settings.
+     ![4](https://github.com/user-attachments/assets/9a2e9cee-2ec2-48f5-8d17-105a6fd439c7) <br/>
+
+  5. Disable IPv6 to prevent DNS registration issues.
+     ![5](https://github.com/user-attachments/assets/170b1d34-25e2-4ed4-bb1b-6aa919c500a7) <br/>
+     ![6](https://github.com/user-attachments/assets/a6ce9b92-a74e-4d6a-9303-5052e6594c84) <br/>
+     ![7](https://github.com/user-attachments/assets/bb97c6f7-4317-41ed-b5bc-fa8f5e46a554) <br/>
+     ![8](https://github.com/user-attachments/assets/779a11a1-2d3d-4282-b309-e09e44340845) <br/>
+     ![9](https://github.com/user-attachments/assets/2675bbac-2adf-4700-88af-05d0e7178fa4) <br/>
+     ![10](https://github.com/user-attachments/assets/546a7a48-ea37-42c7-bef7-f39e3e852612) <br/>
+     ![11](https://github.com/user-attachments/assets/77be6d20-f0d2-42b9-a4c0-a2aba44101e7) <br/>
+
+  7. Navigate to Cain & Abel → Cracker → Import Local Hashes.
+     ![12](https://github.com/user-attachments/assets/cbed0308-1534-48d6-ae6e-106c01b77023) <br/>
+
 
 ---
 
@@ -92,13 +111,26 @@ The report encapsulates:
 * NTLM hashes of local users were successfully extracted.
 * Dictionary-based attacks were performed on the extracted hashes.
 * Tools used: Cain & Abel’s internal dictionary attack engine.
+  ![13](https://github.com/user-attachments/assets/ab97d915-fa09-4666-be19-6f8d3f67f849) <br/>
+  ![14](https://github.com/user-attachments/assets/af5a1238-40da-49a3-8950-b8ace18086b5) <br/>
+  ![15](https://github.com/user-attachments/assets/f0177745-f49e-4e67-b7e9-1310fa4f5748) <br/>
+
 
 #### **Attack Steps:**
 
 1. Right-click user → NTLM Hashes → Dictionary Attack.
-2. Load custom wordlist.
-3. Execute and monitor the cracking process.
-4. Retrieve cracked passwords from result table.
+   ![16](https://github.com/user-attachments/assets/25545a88-d740-4de9-8d9f-900bd97557d8) <br/>
+
+3. Load custom wordlist.
+   ![17](https://github.com/user-attachments/assets/29df4015-4eb2-4e4d-898d-448136b7ea93) <br/>
+   ![18](https://github.com/user-attachments/assets/50cb7b1e-600f-49fc-b2a1-4c516718553a) <br/>
+
+5. Execute and monitor the cracking process.
+   ![19](https://github.com/user-attachments/assets/6e5d166a-b42d-4f1e-b82e-4e88f782ac5d) <br/>
+   ![20](https://github.com/user-attachments/assets/406fbc84-001f-4545-9012-1e96aeaa318e) <br/>
+
+7. Retrieve cracked passwords from result table.
+   ![21](https://github.com/user-attachments/assets/fc2c07f7-cb1b-4892-86a5-3a649e34f1b1) <br/>
 
 ---
 
