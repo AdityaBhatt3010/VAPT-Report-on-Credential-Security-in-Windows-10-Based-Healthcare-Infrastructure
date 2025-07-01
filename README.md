@@ -8,6 +8,8 @@ In the ever-evolving landscape of cybersecurity, even the most fundamental compo
 
 This hands-on assessment mimicked a post-exploitation scenario inside a healthcare-oriented infrastructure—one of the most targeted industries today. What followed was a detailed Vulnerability Assessment and Penetration Testing (VAPT) exercise involving enumeration of SAM files, NTLM hash extraction, and offline password cracking using Cain and Abel. The results highlight just how crucial it is for enterprises to adopt strong password policies, enforce multi-factor authentication, and align with industry-grade frameworks like NIST and ISO/IEC 27001.
 
+![VAPT Report](https://github.com/user-attachments/assets/2e1e768c-378b-4eb9-b8ce-58862481d516) <br/>
+
 Let’s dive into the technicals and findings 👇
 
 ---
